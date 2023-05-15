@@ -19,8 +19,9 @@ function question(){
     let res=fruct[f_index]
     if(!res){
         text.innerHTML=`        
-            <div><h6>Correct: ${hashiv.correct} </h6><div>         
-            <div><h6>Wrong: ${hashiv.wrong} </h6><div>   
+            <div><h4>Correct: ${hashiv.correct} </h4> </div>  
+            &&  
+            <div><h4>Wrong: ${hashiv.wrong} </h4></div>
                
  
         `
